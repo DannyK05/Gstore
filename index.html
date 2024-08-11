@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="description" content="e-commerce shop">
-    <link rel="stylesheet" href="gstore.css">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="description" content="e-commerce shop" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <h1>gStore</h1>
-    <div class="label">
-    <span></span>
-    <input type="search" name="" placeholder="Search for Fashionable Clothes,Brand and inspiration">
-    </div>
-    <div class="profile">
-    <span><img src="icons\profile_icon.svg" alt="">Hello, Mr.Kolade</span>
-  </div>
+      <h1>gStore</h1>
+      <div class="search-bar">
+        <span></span>
+        <input type="search" name="" placeholder="Search " />
+      </div>
+      <div class="profile">
+        <img src="./assets/icons/profile_icon.svg" alt="" />
+        <span>Hello, Mr.Kolade</span>
+      </div>
     </header>
     <nav>
-        <h1>Discover</h1>
-        <ul>
-        <li><span><img src="icons\lightning_icon.svg" alt=""></span><a href="#"> New in</a></li>
-        <li><span><img src="icons\clothing_icon.svg" alt=""></span><a href="#">Clothing</a></li>
-        <li><span><img src="icons\shoe_icon.svg" alt=""></span><a href="#">Shoes</a></li>
-        <li><span><img src="icons\acessories_icon.svg" alt=""></span><a href="#">Acessories</a></li>
-        <li><span><img src="icons\overalls_icon.svg" alt=""></span><a href="#">Exercise wear</a></li>
-        <li><span><img src="icons\gift_icon.svg" alt=""></span><a href="#">Gift & Living</a></li>
-        </ul>
-        <button><span><img src="icons\message_icon.svg" alt=""></span>Help Center</button>
+      <h1>Discover</h1>
+      <ul>
+        <li>
+          <img src="./assets/icons\lightning_icon.svg" alt="" /><a href="#">
+            New in</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icons\clothing_icon.svg" alt="" /><a href="#"
+            >Clothing</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icons\shoe_icon.svg" alt="" /><a href="#">Shoes</a>
+        </li>
+        <li>
+          <img src="./assets/icons\acessories_icon.svg" alt="" /><a href="#"
+            >Acessories</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icons\overalls_icon.svg" alt="" /><a href="#"
+            >Exercise wear</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icons\gift_icon.svg" alt="" /><a href="#"
+            >Gift & Living</a
+          >
+        </li>
+      </ul>
+      <button>
+        <img src="./assets/icons\message_icon.svg" alt="" /><span
+          >Help Center</span
+        >
+      </button>
     </nav>
     <main>
-        <span class="current"><img src="icons\clothing_icon.svg" alt=""></span><h1>Clothing</h1>
+      <div class="current">
+        <img src="./assets/icons\clothing_icon.svg" alt="" />
+        <h1>Clothing</h1>
+      </div>
       <div class="tiles">
-        <div class="tile1 prod">
+        <div class="tile1 bubbl">
           <p>GET UP TO 55% OFF</p>
+          <!-- <img src="./assets/images/winter.png" alt=""/> -->
         </div>
 
-        <div class="tile2 prod">
+        <div class="tile2 bubbl">
           <p>Winter Weekends</p>
           <small>Keep it Casual</small>
-          <span><img src="" alt=""></span>
+          <!-- <img src="./assets/images/trendy.png" alt=""/> -->
         </div>
-        <div class="tile3 prod">
+        <div class="tile3 bubbl">
           <p>Trendy Collection</p>
           <small>Casual and funky style</small>
+          <!-- <img src="./assets/images/trendy.png" alt=""/> -->
         </div>
         <div class="tile4 prod">
-        <img src="blackdress.jpg" alt="" srcset="">
-        <div class="content">
-          <h1>Black & beautiful</h1>
-          <p>Black dress</p>
-          <small>#8,000</small>
-        </div>
+          <img src="./assets/images/blackdress.png" alt="Black dress" />
+          <div class="content">
+            <h1>Black & beautiful</h1>
+            <p>Black dress</p>
+            <small>#8,000</small>
+          </div>
         </div>
         <div class="tile5 prod">
-          <img src="cboot.jpg" alt="">
+          <img src="./assets/images/cboot.png" alt="Cowboy boots" />
           <div class="content">
             <h1>Wild west</h1>
             <p>Cowboy boots</p>
@@ -63,15 +95,15 @@
           </div>
         </div>
         <div class="tile6 prod">
-          <img src="nikecap.jpg" alt="">
+          <img src="./assets/images/nikecap.png" alt="Nike Cap" />
           <div class="content">
             <h1>Sleek & stylish</h1>
-            <p> Nike Cap</p>
+            <p>Nike Cap</p>
             <small>#4,000</small>
           </div>
         </div>
         <div class="tile7 prod">
-          <img src="nikejacket.jpg" alt="">
+          <img src="./assets/images/nikejacket.png" alt="Nike Hoodie" />
           <div class="content">
             <h1>Warm & drippng</h1>
             <p>Nike Hoodie</p>
@@ -79,15 +111,15 @@
           </div>
         </div>
         <div class="tile8 prod">
-          <img src="tshirt.jpg" alt="">
+          <img src="./assets/images/tshirt.png" alt="Tshirt" />
           <div class="content">
             <h1>Comfy</h1>
-            <p> Plaid shirt </p>
+            <p>Plaid shirt</p>
             <small>#6,000</small>
           </div>
         </div>
         <div class="tile9 prod">
-          <img src="LVbag.jpg" alt="">
+          <img src="./assets/images/LVbag.png" alt="Louis Vuitton Bag" />
           <div class="content">
             <h1>Stylish</h1>
             <p>Louis V bag</p>
@@ -95,15 +127,15 @@
           </div>
         </div>
         <div class="tile10 prod">
-          <img src="weddress.jpg" alt="">
+          <img src="./assets/images/weddress.png" alt="Wedding dress" />
           <div class="content">
             <h1>Walk the aisel</h1>
-            <p> Wedding gown</p>
+            <p>Wedding gown</p>
             <small>#37,000</small>
           </div>
         </div>
         <div class="tile11 prod">
-          <img src="wool scarf.png" alt="" srcset="">
+          <img src="./assets/images/wool_scarf.png" alt="wool scarf" />
           <div class="content">
             <h1>Warm in the cold</h1>
             <p>Wool scarf</p>
@@ -111,16 +143,14 @@
           </div>
         </div>
         <div class="tile12 prod">
+          <img src="./assets/images/suit.png" alt="A suit" />
           <div class="content">
-            <h1></h1>
-            <p></p>
-            <small></small>
+            <h1>Sleek and Coporate</h1>
+            <p>Suit Piece</p>
+            <small>#42,000</small>
           </div>
         </div>
-       
-        </div>
-        
-      </div>  
+      </div>
     </main>
-</body>
+  </body>
 </html>
